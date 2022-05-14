@@ -28,6 +28,7 @@ const Header = () => {
         <div id="menu" className="block">
           <button
             type="button"
+            onClick={() =>{window.location.href = 'https://www.google.com/'}}
             className="flex items-center px-3 py-2 border rounded text-gray-700 border-gray-700 hover:text-white hover:border-white"
           >
             <svg
